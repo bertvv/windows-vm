@@ -16,7 +16,7 @@
                     <InstallFrom>
                         <MetaData wcm:action="add">
                             <Key>/IMAGE/NAME</Key>
-                            <Value>Windows Server 2012 R2 SERVERSTANDARD</Value>
+                            <Value>Windows Server 2012 R2 SERVERSTANDARDCORE</Value>
                         </MetaData>
                     </InstallFrom>
                     <InstallTo>
@@ -26,8 +26,9 @@
                 </OSImage>
             </ImageInstall>
             <UserData>
-                <ProductKey>
-                    <Key>D2N9P-3P6X9-2R39C-7RTCD-MDVJX</Key>
+              <ProductKey>
+                  <!-- AVMA key: http://technet.microsoft.com/en-us/library/dn303421.aspx -->
+                  <Key>DBGBW-NPF86-BJVTX-K3WKJ-MTB6V</Key>
                     <WillShowUI>OnError</WillShowUI>
                 </ProductKey>
                 <AcceptEula>true</AcceptEula>
