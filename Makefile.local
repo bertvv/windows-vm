@@ -1,0 +1,4 @@
+# Makefile.local
+#
+WIN2012R2_X64 ?= iso/en_windows_server_2012_r2_with_update_x64_dvd_4065220.iso
+WIN2012R2_X64_CHECKSUM ?= b6f063436056510357cb19cb77db781ed9c11df3
